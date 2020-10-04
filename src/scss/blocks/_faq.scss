@@ -1,0 +1,35 @@
+.faq{
+   margin-top: 5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   @include table {
+      width: 60%;
+      margin-left: 20%;
+      margin-right: 20%;
+   }
+
+   &__title{
+      font-size: 1.25rem;
+
+      @include table{
+         font-size: 2rem;
+      }
+   }
+
+   &__txt{
+      margin-top: 1rem;
+      font-size: .8125rem;
+      color: var(--grayish-blue);
+      text-align: center;
+      padding: 2rem;
+      line-height: 1.5;
+
+      @include table{
+         font-size: 1.125rem;
+      }
+   }
+
+}

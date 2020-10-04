@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/logos/favicon-32x32.png">
+   <script src="https://kit.fontawesome.com/118fdc7223.js" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/styles.css">
+   <title>Frontend Mentor | Bookmark landing page</title>
+</head>
+<body>
+   <header class="header" id="header">
+      <div class="nav__logo" id="nav__logo">
+         <a href="index.html"><img src="./assets/img/logos/logo-bookmark.svg" alt="Taguara Digital Logo"></a>
+      </div>
+      
+      <div class="toggle-menu" id="toggle-menu">
+            <span class="bar"></span>
+       </div>
+
+      <nav class="main-nav" id="main-nav">
+         <ul class="nav__list" id="nav__list">
+
+            <li class="nav__item"><a href="#"class="nav__link nav__link--active" id="features">Features</a></li>
+            <li class="nav__item"><a class="nav__link" id="pricing" href="#">Pricing</a></li>
+            <li class="nav__item"><a class="nav__link" id="contact" href="#">Contact</a></li>
+            <li class="nav__item"><buttom class="btn btn--red btn--login" id="login">Login</buttom></li>
+         </ul>
+        
+
+         <div class="social">
+            <a href="https://twitter.com/TaguaraDigital" target="_blank">
+               <img class="social__icon" src="./assets/img/icons/icon-facebook.svg" alt="Facebook" width="20">
+            </a>
+            <a href="https://twitter.com/TaguaraDigital" target="_blank">
+               <img class="social__icon" src="./assets/img/icons/icon-twitter.svg" alt="Twitter">
+            </a>
+         </div>
+      </nav>
+   </div>
+</header>
+
+
+<main class="main">
+   <div class="main__img">
+      <img src="./assets/img/illustration-hero.svg" alt="image">
+      <div class="img-bg"></div>
+   </div>
+
+   <div class="main__body">
+      <h1 class="title main__title">A Simple Bookmark Manager</h1>
+      <h2 class="txt main__text">
+         A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+      </h2>
+      <div class="main__btns">
+         <a href="#" class="btn">Get it on Chrome</a>
+         <a href="#" class="btn btn--gray">Get it on Firefox</a>
+      </div>
+   </div>
+</main>
+
+<section class="features"> 
+   <div class="features-header">
+      <h2 class="title features__title">Features</h2>
+      <p class="txt features__txt">
+         Our aim is to make it quick and easy for you to access your favourite websites.Your bookmarks sync between your devices so you can access them on the go.
+      </p>
+   </div>
+
+   <ul class="features__nav" id="features-nav">
+      <li class="features__link features__link--active" id="goto-tab1">Simple Bookmarking</li>
+      <li class="features__link" id="goto-tab2">Speedy Searching</li>
+      <li class="features__link" id="goto-tab3">Easy Sharing</li>
+   </ul>
+
+   <div class="features-tabs features-tabs--show" id="tab1">
+      <div class="features-tabs__img">
+         <img src="./assets/img/illustration-features-tab-1.svg" alt="image">
+         <div class="img-bg2"></div>
+      </div>
+
+      <div class="features-tabs__body">
+         
+         <h2 class="title features-tabs__title">Bookmark in one click</h2>
+         <p class="txt features-tabs__txt">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+
+         <a href="#" class="btn btn--features">More Info</a>
+     
+      </div>
+   </div>
+
+   <div class="features-tabs features-tabs--hidden" id="tab2">
+      <div class="features-tabs__img">
+         <img src="./assets/img/illustration-features-tab-2.svg" alt="image">
+         <div class="img-bg2"></div>
+      </div>
+
+      <div class="features-tabs__body">
+         <h2 class="title features-tabs__title">  Intelligent search</h2>
+         <p class="txt features-tabs__txt">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+
+         <a href="#" class="btn">More Info</a>
+      </div>
+   </div>
+
+   <div class="features-tabs features-tabs--hidden" id="tab3">
+      <div class="features-tabs__img">
+         <img src="./assets/img/illustration-features-tab-3.svg" alt="image">
+         <div class="img-bg2"></div>
+      </div>
+      <div class="features-tabs__body">
+         <h2 class="title features-tabs__title">  Share your bookmarks</h2>
+         <p class="txt features-tabs__txt">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+
+         <a href="#" class="btn">More Info</a>
+      </div>
+   </div>
+
+</section>
+
+<section class="download">
+   <div class="download-header">
+      <h2 class=" title download__title">Download the extension</h2>
+      <p class="txt download__txt">We’ve got more browsers in the pipeline. Please do let us know if you’ve  got a favourite you’d like us to prioritize.</p>
+   </div>
+
+   <div class="download__cards">
+      <div class="download__card card-1">
+         <div class="download__img">
+            <img src="./assets/img/logos/logo-chrome.svg" alt="Chrome">
+         </div>
+
+         <h3 class="download__card-title"> Add to Chrome</h3>
+         <p class="txt download__card-txt">Minimum version 62</p>
+         
+         <div class="download__img-points">
+            <img src="./assets/img/bg-dots.svg" alt="dots">
+         </div>
+
+         <a href="#" class="btn btn--download">Add & Install Extension</a>
+      </div>
+
+      <div class="download__card card-2">
+         <div class="download__img">
+            <img src="./assets/img/logos/logo-firefox.svg" alt="Firefox">
+         </div>
+
+         <h3 class="download__card-title">Add to Firefox</h3>
+         <p class="txt download__card-txt">Minimum version 55</p>
+
+         <div class="download__img-points">
+            <img src="./assets/img/bg-dots.svg" alt="dots">
+         </div>
+         <a href="#" class="btn btn--download">Add & Install Extension</a>
+      </div>
+
+      <div class="download__card card-3">
+         <div class="download__img">
+            <img src="./assets/img/logos/logo-opera.svg" alt="Firefox">
+         </div>
+
+         <h3 class="download__card-title">Add to Opera</h3>
+         <p class="txt download__card-txt">Minimum version 46</p>
+
+         <div class="download__img-points">
+            <img src="./assets/img/bg-dots.svg" alt="dots">
+         </div>
+         <a href="#" class="btn btn--download">Add & Install Extension</a>
+      </div>
+   </div>
+</section>
+
+<section class="faq">
+   <h2 class="faq__title">Frequently Asked Questions</h2>
+   <p class="faq__txt">
+      Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.
+   </p>
+
+   <ul class="accordion">
+      <li class="questions">
+         <input type="checkbox" name="question-1"  checked="checked">
+         <i class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+         </i>
+         <p class="txt question">What is Bookmark?</p>
+         <p class="txt answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blanditipsum quis quam ornare mattis.
+         </p>
+      </li>
+
+      <li class="questions">
+         <input type="checkbox" name="question-2" checked="checked">
+         <i class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+         </i>
+         <p class=" txt question"> How can I request a new browser?</p>
+         <p class="txt answer">
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquetconvallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamusluctus eros aliquet convallis ultricies.  Mauris augue massa, ultricies non ligula.Suspendisse imperdiet.
+         </p>
+      </li>
+
+      <li class="questions">
+         <input type="checkbox" name="question-3" checked="checked">
+         <i class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+         </i>
+         <p class="txt question">Is there a mobile app?</p>
+         <p class="txt  answer">
+            Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.
+         </p>
+      </li>
+
+      <li class="questions">
+         <input type="checkbox" name="question-4" checked="checked">
+         <i class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+         </i>
+         <p class="txt question">What about other Chromium browsers?</p>
+         <p class="txt answer">
+            Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.
+         </p>
+      </li>
+   </ul>
+
+   <a href="#" class="btn btn-primary">More Info</a>
+</section>
+
+<footer class="footer">
+   <div class="footer__content"> 
+      <p class="txt txt--footer">35,000+ already joined</p>
+      <p class="title title--footer">Stay up-to-date with what we’re doing</p>
+
+      <form class="footer__form">
+
+         <div class="footer__email">
+            <input type="email" placeholder="Enter your email address" class="form__input">
+            <i class="input-error">
+               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><g fill="none" fill-rule="evenodd"><circle cx="10" cy="10" r="10" fill="#FA5959"/><g fill="#FFF" transform="translate(9 5)"><rect width="2" height="7" rx="1"/><rect width="2" height="2" y="8" rx="1"/></g></g></svg>            </i>
+            <p class="input-error-msg">Whoops, make sure it's an email</p>
+         </div>
+      
+         <buttom type="submit" class="btn btn--red btn--footer">Contact Us</buttom>
+      </form>
+   </div>
+
+   <div class="footer__menu">
+      <div class="footer__navbar">
+         <div class="logo">
+            <img class="logo logo--footer" src="/assets/img/logos/logo-bookmark-white.svg" alt="">
+         </div>
+
+         <nav class="footer__nav">
+            <ul class=footer__links>
+               <li class="footer__item"><a class="footer__link" href="#">Features</a></li>
+               <li class="footer__item"><a class="footer__link" href="#">Pricing</a></li>
+               <li class="footer__item"><a class="footer__link" href="#">Contact</a></li>
+            </ul>
+         </nav>
+
+         <div class="social">
+            <a href="https://twitter.com/TaguaraDigital" target="_blank">
+               <img class="social__icon" src="./assets/img/icons/icon-facebook.svg" alt="Facebook" width="20">
+            </a>
+            <a href="https://twitter.com/TaguaraDigital" target="_blank">
+               <img class="social__icon" src="./assets/img/icons/icon-twitter.svg" alt="Twitter">
+            </a>
+         </div>
+      </div>
+   </div>
+</footer>
+
+<script src="./js/app.js"></script>
+</body>
+</html>

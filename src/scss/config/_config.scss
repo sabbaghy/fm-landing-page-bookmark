@@ -1,0 +1,35 @@
+/* ===============  Colores para el sitio =============
+   https://paletasdecolores.com/paleta-de-colores-2594/
+   para los colores verdes en uso
+*/
+
+:root {
+/* ===============  Colors  =============*/
+   --soft-blue: hsl(231, 69%, 60%);
+   --dark-blue: hsl(229, 31%, 21%);
+   --overlay-blue: hsla(229, 31%, 21%, .95);
+   --soft-red: hsl(0, 94%, 66%);
+   --grayish-blue: hsl(229, 8%, 60%);
+   --white-clr: hsl(0, 0%, 95%);
+   --black-clr: hsl(0, 0%, 15%);
+
+/* ===============  Fonts  =============*/
+   --ff-title: 'Rubik', sans-serif;; 
+   --ff-body: 'Rubik', sans-serif;; 
+   --fw-normal: 400;
+   --fw-bold: 500;
+
+// mobile view   
+   --fs-title-mobile: 1.625rem;
+   --fs-subtitle-mobile: 1.375rem;  
+   --fs-txt-mobile: .8125rem;
+
+   // --fs-txt-table:   
+   // --fs-txt-toptable:
+   --fs-base:16px;
+   
+
+/* ===============  Others  =============*/
+   --time-animation: 1s;
+   --header-height: 100px;
+}

@@ -1,0 +1,31 @@
+
+.download{
+   width: 100%;
+   position: relative;
+   margin-top: 5rem;
+
+   &__title{
+      text-align: center;
+      font-size: 1.125;
+      font-weight: bold;
+      margin-bottom: 1.125rem;
+
+      @include table {
+         font-size: 2rem;
+         margin-bottom: 2.25rem;
+      }
+   }
+   
+   &__txt{
+      text-align: center;
+      padding: 0 2rem;
+      font-size: .8125rem;
+      line-height: 2;
+      color: var(--grayish-blue);
+
+      @include table {
+         font-size: 1.125rem;
+         padding: 0 20vw;
+      }
+   }
+}

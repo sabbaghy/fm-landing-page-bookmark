@@ -1,0 +1,63 @@
+.download__cards{
+   width: 100%;
+   position: relative;
+   padding-top: 1rem;
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   
+   @include table {
+      margin: 0 auto;
+      grid-template-columns: repeat(3,1fr);
+      width: 85%;
+   }
+}
+
+.download__card{
+   margin: 1rem auto;
+   width: 250px;
+   box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 1.5rem;
+
+   @include table {
+      width: 300px;
+      height: 380px;
+   }
+}
+
+.download__img{
+   margin-top: 2rem;
+   position: relative;
+   width: 35%;
+   justify-content: center;
+}
+
+.download__card-title {
+   font-size: 1.125rem;
+   text-align: center;
+   margin-top: 2rem;
+}
+
+.download__card-txt{
+   font-size: .8125rem;
+   margin-top: 1rem;
+   color: var(--grayish-blue);
+}
+
+.download__img-points{
+   width: 100%;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+
+@include table {
+   .card-2 {
+      margin-top: 3rem;
+   }
+      .card-3 {
+      margin-top: 6rem;
+   }
+}
